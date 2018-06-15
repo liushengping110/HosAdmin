@@ -1,0 +1,49 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    android:layout_height="wrap_content" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_marginLeft="45dp"
+        android:layout_height="40dp" >
+        <TextView
+            android:id="@+id/childGroupTV"
+            android:textSize="@dimen/text_content"
+            android:gravity="center|left"
+            android:textColor="@color/text_fz"
+            android:layout_width="wrap_content"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:layout_centerVertical="true"
+            />
+        <RelativeLayout
+            android:layout_width="40dp"
+            android:layout_marginRight="15dp"
+            android:layout_height="match_parent">
+            <ImageView
+                android:id="@+id/check_child"
+                android:layout_height="15dp"
+                android:visibility="gone"
+                android:src="@drawable/top"
+                android:layout_centerInParent="true"
+                android:layout_width="15dp"/>
+            <ImageView
+                android:id="@+id/img_child"
+                android:layout_width="15dp"
+                android:layout_height="15dp"
+                android:visibility="visible"
+                android:layout_centerInParent="true"
+                android:src="@drawable/down"
+                />
+        </RelativeLayout>
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.7dp"
+        android:layout_marginLeft="45dp"
+        android:background="@color/danhui"
+        />
+</LinearLayout>

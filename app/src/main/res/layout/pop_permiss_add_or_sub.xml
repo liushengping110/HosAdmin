@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="@color/white"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:id="@+id/pop_permiss_add_parent_permiss"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@drawable/item_lock"
+        android:text="添加主权限"
+        android:gravity="center"
+        android:textSize="@dimen/text_cs"
+        android:textColor="@color/text_fz"
+        />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.3dp"
+        android:background="@color/danhui"
+        />
+    <TextView
+        android:id="@+id/pop_permiss_add_son_permiss"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@drawable/item_lock"
+        android:text="添加子权限"
+        android:gravity="center"
+        android:textSize="@dimen/text_cs"
+        android:textColor="@color/text_fz"
+        />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.3dp"
+        android:background="@color/danhui"
+        />
+</LinearLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="text_samll">11sp</dimen>
+    <dimen name="text_cs">13sp</dimen>
+    <dimen name="text_center">14sp</dimen>
+    <dimen name="text_title">16sp</dimen>
+    <dimen name="text_content">15sp</dimen>
+    <dimen name="qishi">70dp</dimen>
+    <dimen name="parent_expandable_list_height">40dp</dimen>
+    <dimen name="parent_expandable_center">40.7dp</dimen>
+</resources>

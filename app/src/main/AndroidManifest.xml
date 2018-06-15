@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="wizrole.hosadmin">
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <application
+        android:name=".base.MyApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+        <activity android:name=".ui.SplashActivity"
+            android:theme="@style/Splash">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <!--主页-->
+        <activity android:name=".ui.MainActivity"/>
+        <!--登录-->
+        <activity android:name=".login.view.LoginActivity"/>
+        <!--用户管理页面-->
+        <activity android:name=".authority.view.UserAdminActivity"/>
+        <!--所有设备页面-->
+        <activity android:name=".maintenance.view.DeviceListActivity"/>
+        <!--设备群组页面-->
+        <activity android:name=".maintenance.view.GroupListActivity"/>
+        <!--添加设备-->
+        <activity android:name=".maintenance.view.AddDeviceActivity"/>
+        <!--属性维护-->
+        <activity android:name=".maintenance.view.PropertActivity"/>
+        <!--监控页面-->
+        <activity android:name=".maintenance.view.MonitorActivity"/>
+        <!--充值日志-->
+        <activity android:name=".dailyrecord.view.RefillMoneyActivity"/>
+        <!--用户搜索-->
+        <activity android:name=".authority.view.UserSearchActivity"/>
+        <!--添加用户、修改用户-->
+        <activity android:name=".authority.view.AddOrChangeUserActivity"/>
+        <!--角色列表-->
+        <activity android:name=".authority.view.IdentityListActivity"/>
+        <!--添加角色、修改角色-->
+        <activity android:name=".authority.view.AddOrChangeIdenActivity"/>
+        <!--权限列表-->
+        <activity android:name=".authority.view.PermissAdminActivity"/>
+        <!--公司管理-->
+        <activity android:name=".authority.view.CompanyAdminActivity"/>
+    </application>
+</manifest>
